@@ -87,6 +87,6 @@ console.log(user[info])
 
 // задание 10
 
-let userName = prompt("Введите ваше имя:");
-alert("Привет, ${userName}!");
+let userName = prompt('Введите ваше имя:');
+alert('Привет, ${userName}!');
 console.log('userName')
