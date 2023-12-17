@@ -1,4 +1,5 @@
-let a = 20;
+let a = 10;
+a = 20;
 alert(a);
 console.log(a)
 
@@ -88,5 +89,5 @@ console.log(user[info])
 // задание 10
 
 let userName = prompt('Введите ваше имя:');
-alert('Привет, ${userName}!');
+alert(`Привет, ${userName}!`);
 console.log('userName')
