@@ -7,6 +7,9 @@
 height: 1024px;
 background: no-repeat;
 background-image: url(img/Rectangle\ 1.png);
+background-position: center;
+background-size: cover;
+justify-content: center;
 
     &__title {
     display: flex;
@@ -35,6 +38,7 @@ background-image: url(img/Rectangle\ 1.png);
     line-height: 32px; /* 177.778% */
     padding-top: 32px;
     padding-left: 120px;
+    justify-content: center;
 
     &_bold {
         color: #FFF;
@@ -63,14 +67,16 @@ background-image: url(img/Rectangle\ 1.png);
 }
 
 .bottom-rectangle {
-height: 556px;
-flex-shrink: 0;
-background: #000915;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-gap: 32px;
-justify-content: center;
+    height: 556px;
+    flex-shrink: 0;
+    background: #000915;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 32px;
+    justify-content: center;
 
     &__card {
        position: relative; 
