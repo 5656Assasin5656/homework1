@@ -57,7 +57,7 @@ console.log(age)
 // задание 8
 
 const user = {
-    name: 'Борис',
+    name: `Борис`,
     age: 33,
     isAdmin: true
 }
