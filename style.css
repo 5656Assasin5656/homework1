@@ -24,7 +24,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-left: 120px;
   padding-top: 217px;
 }
 .top__text {
@@ -36,7 +35,6 @@
   font-weight: 300;
   line-height: 32px; /* 177.778% */
   padding-top: 32px;
-  padding-left: 120px;
   justify-content: center;
 }
 .top__text_bold {
@@ -48,7 +46,6 @@
 }
 .top__button {
   margin-top: 44px;
-  margin-left: 120px;
   border-radius: 30px;
   background: #9C0332;
   width: 234.063px;
@@ -60,6 +57,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
 }
 
 .bottom-rectangle {
