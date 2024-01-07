@@ -3,6 +3,27 @@
     padding: 0;
 }
 
+.game__1{
+    transition: all 0.3s;
+    background-image: url(img/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    width: 379px; 
+    
+    
+}
+
+.game__2{
+    background-image: url(img/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    width: 379px; 
+}
+
+.game__3{
+    background-image: url(img/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    width: 379px; 
+}
+
 .top {
 height: 1024px;
 background: no-repeat;
@@ -13,8 +34,6 @@ justify-content: center;
 
     &__title {
     display: flex;
-    width: 788.778px;
-    height: 125.007px;
     flex-direction: column;
     font-family: Montserrat;
     justify-content: center;
@@ -28,7 +47,6 @@ justify-content: center;
     }  
 
     &__text {
-    width: 481px;
     color: #FFF;
     font-size: 18px;
     font-style: normal;
@@ -37,6 +55,7 @@ justify-content: center;
     line-height: 32px; /* 177.778% */
     padding-top: 32px;
     justify-content: center;
+    width: 481px;
 
     &_bold {
         color: #FFF;
@@ -69,7 +88,8 @@ justify-content: center;
 }
 
 .bottom-rectangle {
-    height: 556px;
+    padding-bottom: 128px;
+    padding-top: 128px;
     flex-shrink: 0;
     background: #000915;
     background-position: center;
@@ -79,14 +99,16 @@ justify-content: center;
     flex-wrap: nowrap;
     gap: 32px;
     justify-content: center;
+    transition: all 0.3s;
 
     &__card {
-       position: relative; 
+      height: 300px;
+      border-radius: 16px;
+      transition: all 0.3s;
        
        &_game {
-        position: absolute;
-        bottom: 284px;
-        left: 34px;
+        margin: 236px 268px 32px 32px;
+        white-space: nowrap;
         font-size: 18px;
         color: #FFF;
         font-family: Montserrat;
@@ -97,3 +119,5 @@ justify-content: center;
     }
     
 }
+
+@import "./mobile.scss";
